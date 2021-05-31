@@ -1,18 +1,43 @@
+h1 {
+  color: #c87f2a;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #282f5a;
+}
+
+h2 {
+  font-weight: 400;
+}
+h5 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#wrapper {
+  margin-inline: auto;
+  max-width: 1000px;
+  gap: 50px;
+}
+
 #left {
   text-align: left;
 }
 
 #right {
   text-align: left;
-  margin-left: 25%;
-  margin-top: 5%;
 }
 #job {
   background-color: #f4ede6;
   text-align: center;
-  margin-top: 10%;
-  padding-top: 40px;
+  margin-top: 8%;
+  padding-top: 25px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   height: 150px;
+  margin-bottom: -2%;
 }
 
 #kontakt {
@@ -30,7 +55,8 @@
 }
 
 .kontakt_formular input,
-textarea {
+textarea,
+#input-submit {
   border: 0;
   outline: 0;
   padding: 1em;
@@ -97,9 +123,18 @@ footer hr {
   margin-bottom: 10%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   body {
     width: 100%;
+  }
+
+  #info_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #right {
+    width: 25vw;
   }
 
   #wrapper {
@@ -107,12 +142,15 @@ footer hr {
     grid-template-columns: 1fr 1fr;
     width: 50%;
     margin-left: 22%;
+    grid-column: 2/3;
   }
 
   #job {
     background-color: #f4ede6;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: -6%;
   }
 
   .kontakt_formular {
@@ -130,7 +168,6 @@ footer hr {
     padding: 1em;
     display: block;
     width: 100%;
-    margin-top: 1em;
     font-family: "Oswald", sans-serif;
     font-size: 12px;
     color: brown;
@@ -145,7 +182,7 @@ footer hr {
     height: 40px;
     padding: 0;
     font-size: 14px;
-    margin-left: 35%;
+    margin-inline: auto;
   }
 
   textarea {
