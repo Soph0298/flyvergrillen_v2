@@ -3,7 +3,20 @@ img {
   width: 100%;
   height: auto;
 }
+#menu_kort_section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.tilbage a {
+  text-decoration: none;
+  color: var(--red);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--red);
+}
 p {
   font-weight: 400;
 }
@@ -19,9 +32,11 @@ h4 {
 }
 h1 {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 1/3;
   text-align: center;
   color: var(--red);
+  font-size: 2.5rem;
+  padding-block: 42px;
 }
 .menu_text {
   display: grid;
@@ -152,6 +167,20 @@ footer hr {
 }
 /* -------------------------------------------------------------- */
 @media (min-width: 1000px) {
+  .menu_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px 75px 75px;
+  }
+  h1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    color: var(--red);
+    padding-block: 0;
+    font-size: 3.5rem;
+  }
+
   #menu_kort_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

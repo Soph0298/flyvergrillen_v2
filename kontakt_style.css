@@ -1,0 +1,193 @@
+#left {
+  text-align: left;
+}
+
+#right {
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+#job {
+  background-color: #f4ede6;
+  text-align: center;
+  margin-top: 10%;
+  padding-top: 40px;
+  height: 150px;
+}
+
+#kontakt {
+  margin-top: 10%;
+  width: 100%;
+  background-color: #206076;
+  padding-bottom: 20px;
+}
+
+.kontakt_formular {
+  max-width: 60%;
+  text-align: center;
+  margin-left: 60px;
+  margin-left: 20%;
+}
+
+.kontakt_formular input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  color: brown;
+  background: #f4ede6;
+  resize: none;
+}
+#input-submit {
+  background: #f4ede6;
+  cursor: pointer;
+  max-width: 50%;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 14px;
+  border: 0;
+}
+
+#tak_tekst {
+  text-align: center;
+  margin-inline: auto;
+  padding: 10%;
+}
+
+footer img {
+  width: 110px;
+}
+footer {
+  background-color: #6e95a1;
+  display: grid;
+}
+footer p,
+time,
+h4,
+hr,
+address {
+  color: white;
+}
+
+footer img {
+  width: auto;
+  height: 70px;
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+footer hr {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer_indhold {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+#footer_tider {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media (min-width: 1000px) {
+  body {
+    width: 100%;
+  }
+
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 22%;
+  }
+
+  #job {
+    background-color: #f4ede6;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .kontakt_formular {
+    color: black;
+    max-width: 40%;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .kontakt_formular input,
+  textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    color: brown;
+    background: #f4ede6;
+    resize: none;
+  }
+
+  #input-submit {
+    background: #f4ede6;
+    cursor: pointer;
+    max-width: 30%;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    margin-left: 35%;
+  }
+
+  textarea {
+    height: 126px;
+  }
+
+  footer {
+    background-color: #6e95a1;
+  }
+
+  footer img {
+    width: auto;
+    height: 90px;
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+
+  footer hr {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #footer_indhold {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+    grid-template-columns: auto 1fr 1fr;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 60px;
+  }
+
+  #footer_adresse {
+    margin: 0;
+  }
+
+  #footer_tider {
+    margin: 0;
+  }
+
+  #footer_map {
+    margin: 0;
+  }
+}
