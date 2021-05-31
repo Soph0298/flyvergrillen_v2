@@ -10,6 +10,17 @@ video {
   height: 100%;
 }
 
+.tilbage li {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.tilbage a {
+  font-size: 0.5rem;
+  color: var(--red);
+  text-decoration: none;
+}
+
 header nav {
   display: grid;
   place-self: center;
@@ -28,6 +39,12 @@ header li {
   place-self: center;
   list-style: none;
 }
+
+nav a {
+  color: var(--red);
+  text-decoration: none;
+}
+
 header .tilbage {
   margin-left: 10px;
 }
@@ -135,11 +152,23 @@ footer hr {
 /* ---- MOBILE ABOVE -- WEBSITE OVER 700px BELOW ------ */
 
 @media (min-width: 700px) {
+  
+  .tilbage a {
+    font-size: 0.8rem;
+  }
+  
+  
   header li {
-    font-size: 1rem;
+    font-size: 1.4rem;
     place-self: center;
     list-style: none;
   }
+
+  header nav ul {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
   header .tilbage {
     margin-left: 10px;
   }
@@ -173,3 +202,9 @@ footer hr {
     background-color: var(--orange);
   }
 }
+
+@media (min-width: 900px) {
+  header nav ul {
+    margin-left: 180px;
+    margin-right: 180px;
+  }

@@ -62,10 +62,14 @@ img {
 }
 
 #udflugt_section {
+  display: grid;
+  grid-template-columns: 1fr 900px 1fr;
   margin: 15px;
+  place-self: center;
 }
 
 #udflugt_section .section_wrapper {
+  grid-column: 2/3;
   display: grid;
   gap: 20px;
 }
@@ -92,9 +96,15 @@ p {
 
 #anmeldelser_section {
   display: grid;
+  grid-template-columns: 1fr 900px 1fr;
   gap: 20px;
   padding-top: 20px;
   margin: 15px;
+}
+
+#anmeldelser_section .section_wrapper {
+  display: grid;
+  grid-row: 2/3;
 }
 
 #anmeldelser_section h1 {
