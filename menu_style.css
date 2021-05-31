@@ -133,6 +133,7 @@ footer img {
 footer {
   background-color: #6e95a1;
   display: grid;
+  margin-top: 40px;
 }
 footer p,
 time,
