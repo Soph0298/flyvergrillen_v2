@@ -1,0 +1,264 @@
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-weight: 400;
+}
+h2 {
+  padding-left: 10px;
+  color: var(--red);
+}
+h4 {
+  padding-left: 10px;
+}
+#smorrebrod h4 {
+  color: var(--red);
+}
+h1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  color: var(--red);
+}
+.menu_text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 75px 75px;
+}
+
+#menu_kort_section p {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color: rgb(0, 0, 0);
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+#menu_kort_section .carte:nth-child(odd) {
+  background-color: snow;
+}
+#menu_kort_section .carte:nth-child(even) {
+  background-color: var(--brown);
+}
+.carte {
+  display: grid;
+  align-items: center;
+  padding-block: 20px;
+}
+#a_la_carte {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#ekstra {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#kids {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pomfritter {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#toast {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#ruller {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#sweets {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#drikkevarer {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#polser {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#burger {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#sandwich {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pita {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#smorrebrod {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+footer img {
+  width: 110px;
+}
+footer {
+  background-color: #6e95a1;
+  display: grid;
+}
+footer p,
+time,
+h4,
+hr,
+address {
+  color: white;
+}
+
+footer img {
+  width: auto;
+  height: 70px;
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+footer hr {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer_indhold {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+#footer_tider {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* -------------------------------------------------------------- */
+@media (min-width: 1000px) {
+  #menu_kort_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 20px;
+  }
+
+  #a_la_carte {
+    grid-column: 1/3;
+    grid-row: 1/4;
+  }
+  #sandwich {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
+  #polser {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+  #burger {
+    grid-column: 3/5;
+    grid-row: 3/8;
+  }
+
+  #ekstra {
+    grid-column: 1/3;
+    grid-row: 13/14;
+  }
+  #kids {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  #pomfritter {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  #toast {
+    grid-column: 1/3;
+    grid-row: 6/6;
+  }
+  #ruller {
+    grid-column: 3/5;
+    grid-row: 8/9;
+  }
+  #sweets {
+    grid-column: 3/5;
+    grid-row: 11/15;
+  }
+  #pita {
+    grid-column: 3/5;
+    grid-row: 10/11;
+  }
+  #drikkevarer {
+    grid-column: 3/5;
+    grid-row: 9/10;
+  }
+  #smorrebrod {
+    grid-column: 1/3;
+    grid-row: 7/13;
+  }
+  #logo {
+    width: 35vw;
+    height: 16vw;
+    background-image: url(svg/flyver_logo.svg);
+    background-size: cover;
+  }
+  #logo_container {
+    grid-column: 1/3;
+    grid-row: 14/14;
+    margin-inline: auto;
+  }
+  footer {
+    background-color: #6e95a1;
+  }
+
+  footer img {
+    width: auto;
+    height: 90px;
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+
+  footer hr {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #footer_indhold {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+    grid-template-columns: auto 1fr 1fr;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 60px;
+  }
+
+  #footer_adresse {
+    margin: 0;
+  }
+
+  #footer_tider {
+    margin: 0;
+  }
+
+  #footer_map {
+    margin: 0;
+  }
+}
