@@ -1,6 +1,11 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
 #hero_section {
   display: grid;
-  height: 20vh;
+  height: 40vh;
   width: 100%;
   z-index: 0;
   color: white;
@@ -11,15 +16,6 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-#hero_section {
-  display: grid;
-  height: 40vh;
-  width: 100%;
-  z-index: 0;
-  color: white;
-  background-color: black;
 }
 
 #hero_section p {
@@ -67,7 +63,6 @@
 
 #udflugt_section .section_wrapper {
   display: grid;
-  margin: 15px;
   gap: 20px;
 }
 
@@ -93,7 +88,6 @@ p {
 
 #anmeldelser_section {
   display: grid;
-  margin: 15px;
   gap: 20px;
   padding-top: 20px;
 }
@@ -148,9 +142,13 @@ p {
 
 #social_media_section {
   display: grid;
-  margin: 15px;
   gap: 20px;
   padding-top: 20px;
+}
+
+#social_media_section .section_wrapper {
+  display: grid;
+  gap: 20px;
 }
 
 #social_media_section h1 {
@@ -238,7 +236,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto 500px;
-    margin: 15px;
     gap: 20px;
     padding-top: 20px;
   }
