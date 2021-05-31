@@ -61,6 +61,10 @@ img {
   padding: 2px 30px;
 }
 
+#udflugt_section {
+  margin: 15px;
+}
+
 #udflugt_section .section_wrapper {
   display: grid;
   gap: 20px;
@@ -90,6 +94,7 @@ p {
   display: grid;
   gap: 20px;
   padding-top: 20px;
+  margin: 15px;
 }
 
 #anmeldelser_section h1 {

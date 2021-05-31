@@ -89,6 +89,49 @@ h3 {
   background-color: var(--orange);
 }
 
+/* FOOTER STYLING -----  */
+
+footer img {
+  width: 110px;
+}
+footer {
+  background-color: #6e95a1;
+  display: grid;
+}
+footer p,
+time,
+h4,
+hr,
+address {
+  color: white;
+}
+
+footer img {
+  width: auto;
+  height: 70px;
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+footer hr {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer_indhold {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+#footer_tider {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* ___________________________ */
+
 /* ---- MOBILE ABOVE -- WEBSITE OVER 700px BELOW ------ */
 
 @media (min-width: 700px) {
