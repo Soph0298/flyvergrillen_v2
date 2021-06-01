@@ -20,9 +20,6 @@ h5 {
   margin-bottom: 5px;
 }
 
-#wrapper {
-}
-
 #left {
   text-align: left;
   padding-left: 40px;
@@ -81,6 +78,13 @@ textarea,
   padding: 0 20px;
   font-size: 14px;
   border: 0;
+}
+#input-submit:hover {
+  background-color: var(--orange);
+  color: #f4ede6;
+}
+#input-submit:active {
+  border: 2px solid #f4ede6;
 }
 
 #tak_tekst {

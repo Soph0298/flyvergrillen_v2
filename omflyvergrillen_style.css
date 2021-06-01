@@ -5,7 +5,10 @@
 #wrapper {
   padding: 50px;
 }
-
+.video_wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #om_video {
   width: 100%;
   background-color: var(--bluebox);
@@ -16,6 +19,7 @@ h1 {
   color: var(--orange);
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #om_billede {
@@ -40,10 +44,12 @@ h1 {
   }
 
   #om_video {
-    width: 100%;
     background-color: var(--bluebox);
-    grid-column: 2/3;
+    width: 100%;
     display: grid;
+  }
+  .video_wrapper {
+    grid-column: 2/3;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
