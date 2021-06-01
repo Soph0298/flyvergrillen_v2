@@ -115,7 +115,7 @@ p {
 .box1 {
   font-size: 0.6rem;
   background-color: var(--blue);
-  padding: 16px;
+  padding: 25px;
   color: white;
   text-align: center;
   line-height: 2;
@@ -128,12 +128,12 @@ p {
 .box2 {
   font-size: 0.6rem;
   background-color: #1a4e60;
-  padding: 16px;
+  padding: 25px;
   color: white;
   text-align: center;
   line-height: 2;
   box-shadow: rgba(63, 63, 63, 0.351) 3px 3px 3px;
-  margin-top: -23px;
+  margin-top: -5px;
   z-index: 2;
   margin-left: 5px;
   margin-right: 5px;
@@ -142,12 +142,12 @@ p {
 .box3 {
   font-size: 0.6rem;
   background-color: var(--blue);
-  padding: 16px;
+  padding: 25px;
   color: white;
   text-align: center;
   line-height: 2;
   box-shadow: rgba(63, 63, 63, 0.351) 3px 3px 3px;
-  margin-top: -23px;
+  margin-top: -5px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -172,6 +172,13 @@ p {
   grid-template-columns: 40px 40px;
   gap: 20px;
   place-self: center;
+}
+
+.boxblue {
+  width: 100%;
+  height: 100px;
+  background-color: var(--bluebox);
+  margin-top: -40px;
 }
 
 /* ---MOBILE ABOVE - WEBSITE +700PX BELOW--- */
@@ -210,6 +217,8 @@ p {
 
   #udflugt_section {
     margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 750px 1fr;
   }
 
   #udflugt_section h1 {
@@ -245,15 +254,23 @@ p {
   /* ANMELDELSER SECTION........ */
 
   #anmeldelser_section {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+    display: grid;
+    margin-left: -50px;
+    margin-right: -50px;
     grid-template-rows: auto auto 500px;
     gap: 20px;
     padding-top: 20px;
   }
 
+  #anmeldelser_section .section_wrapper {
+    grid-template-columns: 1fr 500px 1fr;
+    max-width: 1000px;
+    place-self: center;
+  }
+
   #anmeldelser_section h1 {
     grid-column: 1/4;
+    margin: 45px;
   }
 
   .box1 {
@@ -288,16 +305,17 @@ p {
   #anmeldelser_section .box0 {
     grid-column: 1/4;
     display: inline;
-    width: 100%;
-    height: 200px;
+    width: 500%;
+    height: 250px;
     background-color: var(--orange);
     margin-top: -130px;
+    margin-left: -1000px;
   }
 
   #social_media_section {
     background-color: var(--blue);
     display: grid;
-    margin-top: -455px;
+    margin-top: -600px;
     padding-top: 91px;
   }
 
