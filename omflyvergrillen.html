@@ -1,114 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Om Flyvergrillen</title>
-    
-    <link rel="stylesheet" href="mutual_styles.css">
-<link rel="stylesheet" href="omflyvergrillen_style.css" />  
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <meta name="robots" content="noindex" />
 
-<meta name="robots" content="noindex" />
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="mutual_styles.css" />
+    <link rel="stylesheet" href="omflyvergrillen_style.css" />
+  </head>
+  <body>
     <header>
-        <div class="tilbage"><li><a href="index.html"> < Tilbage til forsiden</a></li>
-        </div>
-        <nav>
-            <ul>
-            <li><a href="menu.html">Menukort</a></li>
-            <li><a href="galleri.html">Galleri</a></li>
-            <li><a href=index.html><img src="svg/flyver_logo.svg" alt=""></a></li>
-            <li><a href="omflyvergrillen.html" class="navomflyvergrillen">Om os</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header> 
+      <div class="tilbage">
+        <ul>
+          <li><a href="index.html"> &lt; Tilbage til forsiden</a></li>
+        </ul>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="menu.html">Menukort</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li>
+            <a href="index.html"><img src="svg/flyver_logo.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="omflyvergrillen.html" class="navomflyvergrillen">Om os</a>
+          </li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <section id="orangekasse">
-        <div class="box0">
+      <div class="box0"></div>
+    </section>
+
+    <section id="billede_section">
+      <section class="section_wrapper">
+        <img src="billeder/om_os.jpg" alt="Flyvergrillen" />
+      </section>
+    </section>
+    <main>
+      <div id="wrapper">
+        <div id="om_os">
+          <h2>Om os</h2>
+          <br />
+          <p>
+            Siden 1972 har Flyvergrillen langet pølser, isvafler og kolde øl
+            over disken til besøgende. Med vores unikke beliggenhed for enden af
+            Amager Landevej er vi nabo til landingsbanen i Kastrup Lufthavn.
+            Herfra kan du på helt tæt hold opleve de kæmpe fyvemaskiner lande og
+            lette, imens du nyder din mad.<br /><br />
+            Flyvergrillen er besøgt af især børnefamilier, som kommer forbi for
+            at nyde en is og benytte vores hyggelige legeplads. Udover
+            børnefamilier kommer her en del fyentusiaster, der iagttager og
+            registrerer fly som hobby.
+          </p>
         </div>
+
+        <div id="om_billede">
+          <img src="billeder/fly.jpg" alt="Flyver" />
+        </div>
+      </div>
+
+      <div id="om_video">
+        <h1>VIDEO OM FLYVERGRILLEN</h1>
+        <div class="video_wrapper">
+          <video
+            controls
+            src="https://sophiacannon.dk/kea/omosvideo_jacob_2.mp4"
+          ></video>
+        </div>
+      </div>
+
+      <footer>
+        <img src="billeder/flyvemaskine-01.png" alt="flyvemaskine" />
+        <section id="footer_indhold">
+          <div id="footer_adresse">
+            <h4>Adresse</h4>
+            <p>
+              Amager Landevej 290<br />
+              2770 Kastrup<br />
+              Telefon: 32 51 70 18
+            </p>
+          </div>
+
+          <div id="footer_tider">
+            <h4>Åbningstider</h4>
+            <p>
+              ÅBENT for udendørs servering uden coronapas<br />
+              Alle dage kl. <time datetime="10:30">10:30</time> til kl.
+              <time datetime="20:00">20:00</time><br />
+              Lukketid med forbehold <br />
+            </p>
+            <hr />
+            <address>OBS. køkkenet lukker en halv time før lukketid</address>
+          </div>
+
+          <div id="footer_map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1894.8028183039296!2d12.628919099517244!3d55.613969374171155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ab141e2cd49b%3A0x4cfa823d741b22a0!2sFlyvergrillen!5e0!3m2!1sda!2sdk!4v1622147030412!5m2!1sda!2sdk"
+              width="250"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
         </section>
-        
-        <section id="billede_section">
-            <section class="section_wrapper">
-              <img src="billeder/om_os.jpg" alt="Flyvergrillen" />
-            </section>
-          </section>  
-<main>
+      </footer>
+    </main>
 
-    <div id="wrapper">
-
-    <div id="om_os">
-<h2>Om os</h2><br>
-<p>Siden 1972 har Flyvergrillen langet pølser, isvafler og kolde øl over disken til besøgende.
-    Med vores unikke beliggenhed for enden af Amager Landevej er vi nabo til landingsbanen
-    i Kastrup Lufthavn. Herfra kan du på helt tæt hold opleve de kæmpe fyvemaskiner lande og lette,
-    imens du nyder din mad.<br><br>
-    Flyvergrillen er besøgt af især børnefamilier, som kommer forbi for at nyde en is
-    og benytte vores hyggelige legeplads. Udover børnefamilier kommer her en del fyentusiaster,
-    der iagttager og registrerer fly som hobby.</p>    
-</div>
-
-
-<div id="om_billede">
-    <img src="billeder/fly.jpg" alt="Flyver" />
-</div>
-</div>
-
-
-
-</div>
-
-<div id="om_video">
-   <h1>VIDEO OM FLYVERGRILLEN</h1>
-   <div class="video_wrapper">
-    <video controls src="https://sophiacannon.dk/kea/omosvideo_jacob_2.mp4"
-   > </video></div>
-</div>  
-
-
-
-
-
-<footer>
-    <img src="billeder/flyvemaskine-01.png">
-<section id="footer_indhold">
-
-    <div id="footer_adresse">
-    <h4>Adresse</h4>
-<p>Amager Landevej 290<br>
-    2770 Kastrup<br>
-    Telefon: 32 51 70 18
-</p>
-</div>
-
-<div id="footer_tider">
-    <address>
-        <h4> Åbningstider</h4>
-   <p> ÅBENT for udendørs servering uden coronapas<br>
-    kl. <time>10.30</time> til kl. <time>20.00</time><br>
-Lukketid med forbehold <br>
-<hr>
-OBS. køkkenet lukker en halv time før lukketid</p></address>
-</div>
-
-<div id="footer_map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1894.8028183039296!2d12.628919099517244!3d55.613969374171155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ab141e2cd49b%3A0x4cfa823d741b22a0!2sFlyvergrillen!5e0!3m2!1sda!2sdk!4v1622147030412!5m2!1sda!2sdk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-
-</section>
-</footer>
-</main>
-
-<script src="js/login.js"></script>
-</body>
+    <script src="js/login.js"></script>
+  </body>
 </html>
