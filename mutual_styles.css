@@ -49,10 +49,6 @@ nav a:hover {
   color: var(--darkblue);
 }
 
-nav a:active {
-  color: var(--darkblue);
-}
-
 header .tilbage {
   margin-left: 10px;
 }
@@ -264,5 +260,5 @@ footer hr {
   }
 
   botton {
-    
+
   }

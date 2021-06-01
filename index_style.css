@@ -6,6 +6,45 @@ img {
 .tilbage a {
   color: var(--grey);
 }
+#popup_container {
+  display: grid;
+  position: absolute;
+  z-index: 10;
+  top: 30vw;
+  left: 10vw;
+}
+
+#popup_sprite {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 15px;
+  line-height: 2;
+  height: 60vw;
+  width: 80vw;
+  background-color: rgba(241, 233, 233, 0.945);
+  background-size: cover;
+  border-color: var(--orange);
+  border-width: 5px;
+  border-style: double;
+}
+
+#popupknap {
+  background-color: var(--grey);
+  border: none;
+  color: var(--red);
+  text-align: center;
+  border-style: double;
+  border-width: 4px;
+  border-color: var(--orange);
+  place-self: end;
+  margin-bottom: 8px;
+  z-index: 10;
+}
+
+#popupknap:hover {
+  background-color: var(--orange);
+  color: var(--grey);
+}
 
 #hero_section {
   display: grid;
@@ -182,6 +221,17 @@ p {
 /* ---MOBILE ABOVE - WEBSITE +700PX BELOW--- */
 
 @media (min-width: 700px) {
+  #popup_container {
+    top: 35vw;
+    left: 10vw;
+  }
+
+  #popup_sprite {
+    font-size: 1.5rem;
+    padding: 20%;
+    height: 70vw;
+  }
+
   #hero_section {
     display: grid;
     height: 80vh;
@@ -357,45 +407,6 @@ p {
   }
 }
 
-#popup_container {
-  display: grid;
-  position: absolute;
-  z-index: 5;
-  top: 30vw;
-  left: 10vw;
-}
-
-#popup_sprite {
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 15px;
-  line-height: 2;
-  height: 60vw;
-  width: 80vw;
-  background-color: rgba(233, 225, 225, 0.909);
-  background-size: cover;
-  border-color: var(--orange);
-  border-width: 5px;
-  border-style: double;
-}
-
-#popupknap {
-  background-color: var(--grey);
-  border: none;
-  color: var(--red);
-  text-align: center;
-  border-style: double;
-  border-width: 4px;
-  border-color: var(--orange);
-  place-self: end;
-  margin-bottom: 8px;
-  z-index: 10;
-}
-
-#popupknap:hover {
-  background-color: var(--orange);
-  color: var(--grey);
-}
 .pop {
   animation-name: pop_kf;
   animation-duration: 6s;
@@ -414,17 +425,27 @@ p {
 .hide {
   animation-name: hide_kf;
   animation-duration: 5s;
-  animation-fill-mode: both;
 }
 
 @keyframes hide_kf {
-  0% {
-    transform: scale(0.8);
-  }
   100% {
-    transform: scale(0);
+    transform: translateY(-50vw);
   }
 }
 .skjul {
   display: none;
 }
+
+@media (min-width: 1000px) {
+  #popup_container {
+    top: 20vw;
+    left: 30vw;
+  }
+
+  #popup_sprite {
+    font-size: 1.5rem;
+    padding: 20%;
+    height: 30vw;
+    width: 40vw;
+
+  }

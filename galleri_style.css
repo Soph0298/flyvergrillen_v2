@@ -108,4 +108,7 @@ img {
     padding-left: 200px;
     padding-right: 200px;
   }
+  .navgalleri {
+    color: var(--darkblue);
+  }
 }

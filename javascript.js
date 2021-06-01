@@ -11,4 +11,5 @@ function SidenVises() {
 function Clickhandler() {
   console.log("click");
   Popup.classList.add("skjul");
+  window.removeEventListener("load", SidenVises);
 }
