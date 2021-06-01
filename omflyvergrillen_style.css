@@ -1,0 +1,26 @@
+#wrapper {
+  padding: 50px;
+}
+
+#om_video {
+  width: 100%;
+  background-color: #206076;
+}
+
+@media (min-width: 700px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin-inline: auto;
+    gap: 50px;
+  }
+
+  #om_os {
+    grid-column: 1/2;
+  }
+
+  #om_billede {
+    grid-column: 2/2;
+  }
+}
