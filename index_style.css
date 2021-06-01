@@ -3,6 +3,10 @@ img {
   height: auto;
 }
 
+.tilbage a {
+  color: var(--grey);
+}
+
 #hero_section {
   display: grid;
   height: 40vh;
