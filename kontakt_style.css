@@ -1,3 +1,7 @@
+.navkontakt {
+  color: var(--darkblue);
+}
+
 h1 {
   color: var(--orange);
   text-align: center;
