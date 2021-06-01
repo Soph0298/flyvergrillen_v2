@@ -213,40 +213,6 @@ footer hr {
     padding: -10px;
   }
 
-  #info_kontakt {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  #right {
-    width: 25vw;
-  }
-
-  #wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 50%;
-    margin-left: 22%;
-    grid-column: 2/3;
-  }
-
-  #job {
-    background-color: #f4ede6;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: -6%;
-  }
-
-  .kontakt_formular {
-    color: black;
-    max-width: 40%;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-  }
-
-
   footer {
     background-color: #6e95a1;
   }

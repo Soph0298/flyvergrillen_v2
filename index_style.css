@@ -356,3 +356,33 @@ p {
     grid-column: 1/5;
   }
 }
+
+#popup_container {
+  position: absolute;
+  z-index: 5;
+  top: 50vw;
+  left: 20vw;
+}
+
+#popup_sprite {
+  text-align: center;
+  height: 30vw;
+  width: 60vw;
+  background-color: azure;
+  background-size: cover;
+}
+
+.show {
+  animation-name: show_kf;
+  animation-duration: 2sec;
+  animation-fill-mode: both;
+}
+
+@keyframes show_kf {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
