@@ -52,6 +52,7 @@ header .tilbage {
 header img {
   width: 20vw;
   margin: 5px;
+  padding-bottom: 10px;
 }
 
 body {
@@ -177,6 +178,7 @@ footer hr {
   header img {
     width: 20vw;
     margin: 15px;
+    padding-bottom: 38px;
   }
 
   h1 {
@@ -203,9 +205,12 @@ footer hr {
     background-color: var(--orange);
   }
 
-@media (min-width: 700px) {
   body {
     width: 100%;
+  }
+
+  .logo {
+    padding: -10px;
   }
 
   #info_kontakt {
@@ -280,9 +285,6 @@ footer hr {
   #footer_map {
     margin: 0;
   }
-}
-
-
 }
 
 @media (min-width: 900px) {
