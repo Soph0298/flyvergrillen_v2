@@ -1,8 +1,7 @@
 h1 {
-  color: #c87f2a;
+  color: var(--orange);
   text-align: center;
-  padding-top: 10px;
-  font-weight: 400;
+  padding-top: 20px;
 }
 
 h3 {
