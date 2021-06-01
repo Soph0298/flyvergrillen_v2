@@ -45,6 +45,14 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: var(--darkblue);
+}
+
+nav a:active {
+  color: var(--darkblue);
+}
+
 header .tilbage {
   margin-left: 10px;
 }
@@ -209,10 +217,6 @@ footer hr {
     width: 100%;
   }
 
-  .logo {
-    padding: -10px;
-  }
-
   footer {
     background-color: #6e95a1;
   }
@@ -257,4 +261,8 @@ footer hr {
   header nav ul {
     margin-left: 180px;
     margin-right: 180px;
+  }
+
+  botton {
+    
   }

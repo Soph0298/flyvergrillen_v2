@@ -1,9 +1,14 @@
-const Popup = document.querySelector("#popup_sprite");
+const Popup = document.querySelector("#popupskaerm");
+const knap = document.querySelector("#popupknap");
 
 window.addEventListener("load", SidenVises);
 
 function SidenVises() {
   console.log("siden vises");
+  knap.addEventListener("click", Clickhandler);
+}
 
-  Popup.classList.add("show");
+function Clickhandler() {
+  console.log("click");
+  Popup.classList.add("skjul");
 }

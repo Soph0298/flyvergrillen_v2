@@ -358,31 +358,73 @@ p {
 }
 
 #popup_container {
+  display: grid;
   position: absolute;
   z-index: 5;
-  top: 50vw;
-  left: 20vw;
+  top: 30vw;
+  left: 10vw;
 }
 
 #popup_sprite {
+  font-size: 1.1rem;
   text-align: center;
-  height: 30vw;
-  width: 60vw;
-  background-color: azure;
+  padding: 15px;
+  line-height: 2;
+  height: 60vw;
+  width: 80vw;
+  background-color: rgba(233, 225, 225, 0.909);
   background-size: cover;
+  border-color: var(--orange);
+  border-width: 5px;
+  border-style: double;
 }
 
-.show {
-  animation-name: show_kf;
-  animation-duration: 2sec;
+#popupknap {
+  background-color: var(--grey);
+  border: none;
+  color: var(--red);
+  text-align: center;
+  border-style: double;
+  border-width: 4px;
+  border-color: var(--orange);
+  place-self: end;
+  margin-bottom: 8px;
+  z-index: 10;
+}
+
+#popupknap:hover {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+.pop {
+  animation-name: pop_kf;
+  animation-duration: 6s;
   animation-fill-mode: both;
 }
 
-@keyframes show_kf {
+@keyframes pop_kf {
   0% {
     transform: scale(0);
   }
   100% {
-    transform: scale(1);
+    opacity: scale(0.8);
   }
+}
+
+.hide {
+  animation-name: hide_kf;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+@keyframes hide_kf {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.skjul {
+  display: none;
 }
