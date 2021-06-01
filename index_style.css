@@ -32,7 +32,6 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  opacity: 0.6;
   z-index: 1;
 }
 
@@ -63,7 +62,6 @@ img {
 
 #udflugt_section {
   display: grid;
-  grid-template-columns: 1fr 900px 1fr;
   margin: 15px;
   place-self: center;
 }
@@ -96,7 +94,6 @@ p {
 
 #anmeldelser_section {
   display: grid;
-  grid-template-columns: 1fr 900px 1fr;
   gap: 20px;
   padding-top: 20px;
   margin: 15px;
@@ -248,8 +245,8 @@ p {
   /* ANMELDELSER SECTION........ */
 
   #anmeldelser_section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
     grid-template-rows: auto auto 500px;
     gap: 20px;
     padding-top: 20px;
