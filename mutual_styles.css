@@ -69,6 +69,7 @@ html {
   --grey: #e4e4e4;
   --beige: #f4ede6;
   --brown: #d1beaa;
+  --bluebox: #206076;
 
   --space-xxs: 0.25rem;
   --space-xs: 0.5rem;
@@ -201,6 +202,87 @@ footer hr {
     height: 100px;
     background-color: var(--orange);
   }
+
+@media (min-width: 700px) {
+  body {
+    width: 100%;
+  }
+
+  #info_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #right {
+    width: 25vw;
+  }
+
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 22%;
+    grid-column: 2/3;
+  }
+
+  #job {
+    background-color: #f4ede6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: -6%;
+  }
+
+  .kontakt_formular {
+    color: black;
+    max-width: 40%;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+
+  footer {
+    background-color: #6e95a1;
+  }
+
+  footer img {
+    width: auto;
+    height: 90px;
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+
+  footer hr {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #footer_indhold {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+    grid-template-columns: auto 1fr 1fr;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 60px;
+  }
+
+  #footer_adresse {
+    margin: 0;
+  }
+
+  #footer_tider {
+    margin: 0;
+  }
+
+  #footer_map {
+    margin: 0;
+  }
+}
+
+
 }
 
 @media (min-width: 900px) {
