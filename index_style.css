@@ -77,6 +77,7 @@ img {
   place-self: center;
   text-align: center;
   padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.813);
 }
 
 #hero_section video {
@@ -230,13 +231,13 @@ p {
 /* ---MOBILE ABOVE - WEBSITE +700PX BELOW--- */
 
 @media (min-width: 700px) {
-  #popup_container {
+  .popup_container {
     top: 30%;
     width: 400px;
     height: 500px;
   }
 
-  #popup_sprite {
+  .popup_sprite {
     font-size: 1.5rem;
     padding: 20%;
   }
@@ -256,6 +257,10 @@ p {
   #hero_section .section_wrapper {
     margin: 100px;
     gap: 40px;
+  }
+
+  #hero_section h1 {
+    font-size: 3rem;
   }
 
   .knap {
@@ -416,21 +421,6 @@ p {
   }
 }
 
-/* .pop {
-  animation-name: pop_kf;
-  animation-duration: 6s;
-  animation-fill-mode: both;
-}
-
-@keyframes pop_kf {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    opacity: scale(0.8);
-  }
-} */
-
 .hide {
   animation-name: hide_kf;
   animation-duration: 5s;
@@ -443,18 +433,4 @@ p {
 }
 .skjul {
   display: none;
-}
-
-@media (min-width: 1000px) {
-  /* #popup_container {
-    top: 20vw;
-    left: 30vw;
-  }
-
-  #popup_sprite {
-    font-size: 1.5rem;
-    padding: 20%;
-    height: 30vw;
-    width: 40vw;
-  } */
 }
