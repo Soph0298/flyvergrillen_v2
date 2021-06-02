@@ -1,4 +1,4 @@
-const Popup = document.querySelector("#popup_section");
+const Popup = document.querySelector("#popupskaerm");
 const knap = document.querySelector("#popupknap");
 
 window.addEventListener("load", SidenVises);
@@ -11,5 +11,4 @@ function SidenVises() {
 function Clickhandler() {
   console.log("click");
   Popup.classList.add("skjul");
-  window.removeEventListener("load", SidenVises);
 }
