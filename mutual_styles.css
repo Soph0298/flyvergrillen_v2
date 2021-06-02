@@ -10,9 +10,9 @@ video {
   height: 100%;
 }
 
-.tilbage li {
-  margin-top: 5px;
-  margin-left: 5px;
+header .tilbage {
+  margin-top: 9px;
+  margin-left: -24px;
 }
 
 .tilbage a {
@@ -47,10 +47,6 @@ nav a {
 
 nav a:hover {
   color: var(--darkblue);
-}
-
-header .tilbage {
-  margin-left: 10px;
 }
 
 header img {
@@ -162,6 +158,9 @@ footer hr {
     font-size: 0.8rem;
   }
   
+  header .tilbage {
+  margin-left: -30px;
+}
   
   header li {
     font-size: 1.4rem;

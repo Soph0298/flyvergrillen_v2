@@ -1,4 +1,4 @@
-const Popup = document.querySelector("#popupskaerm");
+const Popup = document.querySelector("#popup_section");
 const knap = document.querySelector("#popupknap");
 
 window.addEventListener("load", SidenVises);
