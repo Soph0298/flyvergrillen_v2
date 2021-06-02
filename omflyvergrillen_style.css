@@ -3,7 +3,7 @@
 }
 
 #wrapper {
-  padding: 50px;
+  padding: 20px;
 }
 .video_wrapper {
   padding-left: 20px;
@@ -25,7 +25,9 @@ h1 {
 #om_billede {
   margin-top: 30px;
 }
-
+p {
+  text-align: center;
+}
 @media (min-width: 700px) {
   #wrapper {
     display: grid;
@@ -41,6 +43,7 @@ h1 {
 
   #om_billede {
     grid-column: 2/2;
+    margin-top: 10px;
   }
 
   #om_video {
@@ -58,10 +61,18 @@ h1 {
 
   h1 {
     color: var(--orange);
-    text-align: center;
     padding-top: 20px;
     grid-row: 1/2;
+    text-align: center;
     grid-column: 1/4;
     display: grid;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
   }
 }
