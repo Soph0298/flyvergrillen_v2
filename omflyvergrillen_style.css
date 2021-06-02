@@ -25,9 +25,10 @@ h1 {
 #om_billede {
   margin-top: 30px;
 }
-p {
+#om_os p {
   text-align: center;
 }
+
 @media (min-width: 700px) {
   #wrapper {
     display: grid;
