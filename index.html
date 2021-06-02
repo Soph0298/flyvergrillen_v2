@@ -13,6 +13,18 @@
     <link rel="stylesheet" href="index_style.css" />
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js" ></script>
+
+<script>
+$(document).ready(function(){
+if (!Cookies.get('alert')) { 
+ $(".popupskaerm").show(); 
+ Cookies.set('alert', true, { expires: 1 });
+}
+});
+
+</script>
 
 <body>
 
@@ -31,10 +43,10 @@
     </header> 
 
     <main>
-<div id="popupskaerm">
-        <div id="popup_container">
-            <button id="popupknap">Luk</button>
-            <div id="popup_sprite">Kære gæst. <br>
+<div class="popupskaerm">
+        <div class="popup_container">
+            <button class="popupknap">Luk</button>
+            <div class="popup_sprite">Kære gæst. <br>
             Hos Flyvergrillen er der åben for udendørs spisning <strong>uden coronapas.</strong> <br>Vi glæder os meget til at se dig. </div>
             
         </div>
@@ -75,7 +87,7 @@
                     <div class="beigebox">
                 <p><a href="https://www.oplevelsesgaver.dk/b/flyvergrillen-for-2">GO DREAM oplevelse for 2 <br> Klik her</a></p>
             </div>
-        
+         
 
                 <img src="billeder/godreampic.png" alt="GoDream">
             </section>
@@ -158,7 +170,8 @@
     
     </section>
     </footer>
-    <script src="login.js"></script>
     <script src="javascript.js"></script>
+    <script src="login.js"></script>
+    
 </body>
 </html>

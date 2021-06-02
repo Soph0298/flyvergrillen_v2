@@ -6,12 +6,15 @@ img {
 .tilbage a {
   color: var(--grey);
 }
-#popupskaerm {
+.popupskaerm {
+  display: none;
+}
+.popupskaerm {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-#popup_container {
+.popup_container {
   display: grid;
   grid-column: 2/3;
   position: absolute;
@@ -22,7 +25,7 @@ img {
   place-self: center;
 }
 
-#popup_sprite {
+.popup_sprite {
   font-size: 1.1rem;
   text-align: center;
   padding: 15px;
@@ -34,7 +37,7 @@ img {
   border-style: double;
 }
 
-#popupknap {
+.popupknap {
   background-color: var(--grey);
   color: var(--red);
   text-align: center;
@@ -47,7 +50,7 @@ img {
   height: 27px;
 }
 
-#popupknap:hover {
+.popupknap:hover {
   background-color: var(--orange);
   color: var(--grey);
 }
