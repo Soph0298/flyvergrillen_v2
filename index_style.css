@@ -6,12 +6,18 @@ img {
 .tilbage a {
   color: var(--grey);
 }
-#popup_container {
+#popup_section {
   display: grid;
-  position: absolute;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#popup_container {
+  /* display: grid; */
+  grid-column: 2/3;
+  /* position: absolute; */
   z-index: 10;
-  top: 30vw;
-  left: 10vw;
+  height: 300px;
+  width: 300px;
 }
 
 #popup_sprite {
@@ -19,8 +25,6 @@ img {
   text-align: center;
   padding: 15px;
   line-height: 2;
-  height: 60vw;
-  width: 80vw;
   background-color: rgba(241, 233, 233, 0.945);
   background-size: cover;
   border-color: var(--orange);
@@ -30,13 +34,11 @@ img {
 
 #popupknap {
   background-color: var(--grey);
-  border: none;
   color: var(--red);
   text-align: center;
   border-style: double;
   border-width: 4px;
   border-color: var(--orange);
-  place-self: end;
   margin-bottom: 8px;
   z-index: 10;
 }
