@@ -407,7 +407,7 @@ p {
   }
 }
 
-.pop {
+/* .pop {
   animation-name: pop_kf;
   animation-duration: 6s;
   animation-fill-mode: both;
@@ -420,7 +420,7 @@ p {
   100% {
     opacity: scale(0.8);
   }
-}
+} */
 
 .hide {
   animation-name: hide_kf;
@@ -447,5 +447,5 @@ p {
     padding: 20%;
     height: 30vw;
     width: 40vw;
-
   }
+}
