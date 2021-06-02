@@ -3,11 +3,14 @@ img {
   width: 100%;
   height: auto;
 }
+.navmenu {
+  color: var(--darkblue);
+}
 #menu_kort_section {
   margin: 20px;
 }
 
-.tilbage a {
+/* .tilbage a {
   text-decoration: none;
   color: var(--red);
 }
@@ -15,7 +18,7 @@ img {
 nav a {
   text-decoration: none;
   color: var(--red);
-}
+} */
 p {
   font-weight: 400;
 }
