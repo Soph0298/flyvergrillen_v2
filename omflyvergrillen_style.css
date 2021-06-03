@@ -9,6 +9,10 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+#billede_section img {
+  height: 50vh;
+}
+
 #om_video {
   width: 100%;
   background-color: var(--bluebox);
