@@ -143,22 +143,21 @@ footer hr {
   body {
     width: 100%;
   }
-
+  #info_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 55% 1fr;
+  }
   #wrapper {
-    margin-inline: auto;
     display: grid;
     grid-template-columns: auto auto;
     grid-column: 2/3;
-    width: 80%;
     gap: 30px;
   }
 
   #right {
-    padding-left: 20%;
   }
 
   #left {
-    padding-left: 30%;
   }
 
   #job {
@@ -168,6 +167,7 @@ footer hr {
     margin-top: 5%;
     grid-column: 1 / span 2;
   }
+
   #kontakt {
     margin-top: 5%;
   }

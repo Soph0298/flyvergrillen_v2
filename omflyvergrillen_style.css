@@ -10,7 +10,6 @@
   padding-right: 20px;
 }
 #billede_section img {
-  height: 50vh;
 }
 
 #om_video {
@@ -36,9 +35,15 @@ h1 {
 
 @media (min-width: 700px) {
   #wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media (min-width: 900px) {
+  #wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 900px;
+    width: 750px;
     gap: 50px;
     margin-inline: auto;
   }
