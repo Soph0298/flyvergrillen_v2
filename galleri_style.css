@@ -42,7 +42,7 @@ img {
 @media (min-width: 700px) {
   #picture_section {
     display: grid;
-    grid-template-columns: 1fr 900px 1fr;
+    grid-template-columns: 1fr 80% 1fr;
     grid-template-rows: 1fr auto;
     gap: 20px;
     margin-top: 40px;
