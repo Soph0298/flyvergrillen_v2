@@ -178,7 +178,8 @@ footer hr {
     margin-right: 100px; */
   }
   .menu_kort_class {
-    grid-template-columns: 1fr 900px 1fr;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
   }
 
   .menu_text {
