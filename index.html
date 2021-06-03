@@ -1,178 +1,210 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
+    <meta
+      name="keywords"
+      content="Mad, Grillmad, Is, Udflugt, Flyvemaskiner, Legeplads, Familie, Børn"
+    />
     <title>Flyver Grillen</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-    
-    <link rel="stylesheet" href="mutual_styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="mutual_styles.css" />
     <link rel="stylesheet" href="index_style.css" />
-</head>
+  </head>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 
-<script>
-$(document).ready(function(){
-if (!Cookies.get('alert')) { 
- $(".popupskaerm").show(); 
- Cookies.set('alert', true, { expires: 1 });
-}
-});
-
-</script>
-
-<body>
-
+  <body>
     <header>
-        <div class="tilbage"><a href="index.html">Tilbage til forsiden</a>
-        </div>
-        <nav>
-            <ul>
-            <li><a href="menu.html">Menukort</a></li>
-            <li><a href="galleri.html">Galleri</a></li>
-            <li><a href="index.html"><img src="svg/flyver_logo.svg" alt="flyvergrillens logo"></a></li>
-            <li><a href="omflyvergrillen.html">Om os</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header> 
+      <div class="tilbage"><a href="index.html">Tilbage til forsiden</a></div>
+      <nav>
+        <ul>
+          <li><a href="menu.html">Menukort</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
+          <li>
+            <a href="index.html"
+              ><img src="svg/flyver_logo.svg" alt="flyvergrillens logo"
+            /></a>
+          </li>
+          <li><a href="omflyvergrillen.html">Om os</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-<div class="popupskaerm">
+      <div class="popupskaerm">
         <div class="popup_container">
-            <button class="popupknap">Luk</button>
-            <div class="popup_sprite">Kære gæst. <br>
-            Hos Flyvergrillen er der åben for udendørs spisning <strong>uden coronapas.</strong> <br>Vi glæder os meget til at se dig. </div>
-            
+          <button class="popupknap">Luk</button>
+          <div class="popup_sprite">
+            Kære gæst. <br />
+            Hos Flyvergrillen er der åben for udendørs spisning
+            <strong>uden coronapas.</strong> <br />Vi glæder os meget til at se
+            dig.
+          </div>
         </div>
+      </div>
+      <section id="hero_section">
+        <h1>
+          DEN ENESTE GRILL I DANMARK <br />
+          MED EN FLYVENDE UDSIGT
+        </h1>
 
-        </div>
-        <section id="hero_section">
+        <video
+          autoplay
+          muted
+          loop
+          src="https://sophiacannon.dk/kea/hero_short_v2.mp4"
+        ></video>
 
-                <h1>DEN ENESTE GRILL I DANMARK <br>
-                MED EN FLYVENDE UDSIGT</h1>
+        <section class="section_wrapper">
+          <a href="kontakt.html" class="knap">Åbningstider</a>
+          <a href="kontakt.html" class="knap">Find vej</a>
+        </section>
+      </section>
 
+      <section id="orangekasse">
+        <div class="box0"></div>
+      </section>
 
-                <video autoplay muted loop src="https://sophiacannon.dk/kea/hero_short_v2.mp4"
-> </video>
-                
-                <section class="section_wrapper">
-                
-                <a href="kontakt.html" class="knap">Åbningstider</a>
-                <a href="kontakt.html" class="knap">Find vej</a>
-               
-                </section>
-                </section>
-                
-                <section id="orangekasse">
-                <div class="box0">
-                </div>
-                </section>
-                
-            
+      <section id="udflugt_section">
+        <section class="section_wrapper">
+          <div><h2>EN UNIK OPLEVELSE PÅ FLYVERGRILLEN</h2></div>
+          <p>
+            Flyvergrillen er ikke bare et spisested, men også et udflugtssted.
+            Imens du nyder de traditionelle grill retter, og en lækker vaffelis,
+            kan du nyde udsigten til de store flyvemaskiner, helt tæt på.
+          </p>
+          <div class="beigebox">
+            <p>
+              <a href="https://www.oplevelsesgaver.dk/b/flyvergrillen-for-2"
+                >GO DREAM oplevelse for 2 <br />
+                Klik her</a
+              >
+            </p>
+          </div>
 
-        <section id="udflugt_section">
-            <section class="section_wrapper">
+          <img src="billeder_galleri/godreampic.webp" alt="GoDream" />
+        </section>
+      </section>
 
-                
-                <div><h2>EN UNIK OPLEVELSE PÅ FLYVERGRILLEN </h2> </div>
-                <p>Flyvergrillen er ikke bare et spisested, men også et udflugtssted. 
-                    Imens du nyder de traditionelle grill retter, og en lækker vaffelis, kan du nyde udsigten til de store flyvemaskiner, helt tæt på.
-                    </p>
-                    <div class="beigebox">
-                <p><a href="https://www.oplevelsesgaver.dk/b/flyvergrillen-for-2">GO DREAM oplevelse for 2 <br> Klik her</a></p>
-            </div>
-         
+      <section id="anmeldelser_section">
+        <section class="section_wrapper">
+          <h2>DET SIGER VORES KUNDER</h2>
+          <div class="box1">
+            “Rigtig børnevenligt sted, hvor forældre kan slappe af mens børnene
+            leger. Rigtig rart personale, som bidrager til den gode stemning “
+            <br /><em>- Lene, Dragør 1/08-2019</em>
+          </div>
 
-                <img src="billeder_galleri/godreampic.webp" alt="GoDream">
-            </section>
-            </section>
+          <div class="box2">
+            “Utrolig hyggeligt besøg på Flyvergrillen Vil klart anbefale at tage
+            familien med til Amager. Der er nok at kigge på :) “ <br /><em
+              >- Marianne, Taarnby 12/09-2021
+            </em>
+          </div>
 
-        <section id="anmeldelser_section">
-            <section class="section_wrapper">
-               <h2>DET SIGER VORES KUNDER</h2>
-               <div class="box1">
-               “Rigtig børnevenligt sted, hvor forældre kan slappe af mens børnene leger. Rigtig rart personale, som bidrager til den gode stemning “ 
-                <br><em>- Lene, Dragør 1/08-2019</em>
-                </div>
+          <div class="box3">
+            “Utrolig hyggeligt besøg på Flyvergrillen Vil klart anbefale at tage
+            familien med til Amager. Der er nok at kigge på :) “
 
-                <div class="box2"> “Utrolig hyggeligt besøg på Flyvergrillen
-                Vil klart anbefale at tage familien med til Amager. Der er nok at kigge på :) “
-                <br><em>- Marianne, Taarnby 12/09-2021 </em> </div>
+            <br />
+            <em>- Marianne, Taarnby 12/09-2021 </em>
+          </div>
 
-                <div class="box3"> “Utrolig hyggeligt besøg på Flyvergrillen
-                Vil klart anbefale at tage familien med til Amager. Der er nok at kigge på :) “
+          <div class="box0"></div>
+        </section>
+      </section>
 
-                <br> <em>- Marianne, Taarnby 12/09-2021 </em></div>
-                
-                <div class="box0"></div>
-
-            </section>
-            
-           </section> 
-
-        <section id="social_media_section">
-           
-               <h2>FØLG OS PÅ FACEBOOK OG INSTAGRAM</h2>
-               <section id="some_section"> 
-               <a href="https://www.instagram.com/explore/tags/flyvergrillen/?hl=da"> <img src="billeder/instagram.png" alt="iglogo" ></a>
-               <a href="https://m.facebook.com/profile.php?id=174551702579226"> <img src="billeder/facebook.png" alt="fblogo"> </a>
-                </section> 
-               
-
-
-
-
-               <section class="section_wrapper">
-            <video autoplay muted loop
-            src="http://sophiacannon.dk/kea/kvadratisk_omos.mp4" alt="instagram video" class="vid1"></video>
-               
-               <img src="billeder_galleri/lang_2.webp" alt="Flyvergrillen uden for" class="image1">
-               <img src="billeder_galleri/lang_2_.webp" alt="En flyvermaskine" class="image2">
-               <img src="billeder_galleri/1-8.webp" alt="langt billede af flyvergrillen" class="image8">       
-               <div class="boxblue"></div>
-           </section> 
+      <section id="social_media_section">
+        <h2>FØLG OS PÅ FACEBOOK OG INSTAGRAM</h2>
+        <section id="some_section">
+          <a href="https://www.instagram.com/explore/tags/flyvergrillen/?hl=da">
+            <img src="billeder/instagram.png" alt="iglogo"
+          /></a>
+          <a href="https://m.facebook.com/profile.php?id=174551702579226">
+            <img src="billeder/facebook.png" alt="fblogo" />
+          </a>
         </section>
 
+        <section class="section_wrapper">
+          <video
+            autoplay
+            muted
+            loop
+            src="http://sophiacannon.dk/kea/kvadratisk_omos.mp4"
+            alt="instagram video"
+            class="vid1"
+          ></video>
+
+          <img
+            src="billeder_galleri/lang_2.webp"
+            alt="Flyvergrillen uden for"
+            class="image1"
+          />
+          <img
+            src="billeder_galleri/lang_2_.webp"
+            alt="En flyvermaskine"
+            class="image2"
+          />
+          <img
+            src="billeder_galleri/1-8.webp"
+            alt="langt billede af flyvergrillen"
+            class="image8"
+          />
+          <div class="boxblue"></div>
+        </section>
+      </section>
     </main>
-    
+
     <footer>
-    
-        <img src="billeder/flyvemaskine-01.png">
-    <section id="footer_indhold">
-    
+      <img src="billeder/flyvemaskine-01.png" alt="flyvemaskine" />
+      <section id="footer_indhold">
         <div id="footer_adresse">
-        <h4>Adresse</h4>
-    <p>Amager Landevej 290<br>
-        2770 Kastrup<br>
-        Telefon: 32 51 70 18
-    </p>
-    </div>
-    
-    <div id="footer_tider">
-        <address>
-            <h4> Åbningstider</h4>
-       <p> ÅBENT for udendørs servering uden coronapas<br>
-        kl. <time>10.30</time> til kl. <time>20.00</time><br>
-    Lukketid med forbehold <br>
-    <hr>
-    OBS. køkkenet lukker en halv time før lukketid</p></address>
-    </div>
-    
-    <div id="footer_map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1894.8028183039296!2d12.628919099517244!3d55.613969374171155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ab141e2cd49b%3A0x4cfa823d741b22a0!2sFlyvergrillen!5e0!3m2!1sda!2sdk!4v1622147030412!5m2!1sda!2sdk" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    
-    </section>
+          <h4>Adresse</h4>
+          <p>
+            Amager Landevej 290<br />
+            2770 Kastrup<br />
+            Telefon: 32 51 70 18
+          </p>
+        </div>
+
+        <div id="footer_tider">
+          <h4>Åbningstider</h4>
+          <p>
+            ÅBENT for udendørs servering uden coronapas<br />
+            Alle dage kl. <time datetime="10:30">10:30</time> til kl.
+            <time datetime="20:00">20:00</time><br />
+            Lukketid med forbehold <br />
+          </p>
+          <hr />
+          <address>OBS. køkkenet lukker en halv time før lukketid</address>
+        </div>
+
+        <div id="footer_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1894.8028183039296!2d12.628919099517244!3d55.613969374171155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ab141e2cd49b%3A0x4cfa823d741b22a0!2sFlyvergrillen!5e0!3m2!1sda!2sdk!4v1622147030412!5m2!1sda!2sdk"
+            alt="Google maps"
+            width="250"
+            height="150"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
     </footer>
     <script src="javascript.js"></script>
     <script src="login.js"></script>
-    
-</body>
+  </body>
 </html>

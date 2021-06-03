@@ -35,7 +35,6 @@ header nav ul {
 }
 
 header li {
-  font-size: 0.7rem;
   place-self: center;
   list-style: none;
 }
@@ -43,6 +42,7 @@ header li {
 nav a {
   color: var(--red);
   text-decoration: none;
+  font-size: 0.7rem;
 }
 
 nav a:hover {
@@ -164,9 +164,13 @@ footer hr {
 }
   
   header li {
-    font-size: 1.4rem;
     place-self: center;
     list-style: none;
+  }
+
+  header li a{
+    font-size: 1.4rem;
+    font-weight: 300;
   }
 
   header nav ul {
