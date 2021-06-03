@@ -1,7 +1,5 @@
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+#billede_section img {
+  height: 50vh;
 }
 .navmenu {
   color: var(--darkblue);
